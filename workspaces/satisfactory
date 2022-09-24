@@ -1,0 +1,20 @@
+basetag raw
+tag manufactured
+basetag work
+
+define work Crafting
+define work Mining
+
+define raw Iron Ore
+
+define manufactured Iron Ingot
+define manufactured Iron Plate
+define manufactured Iron Rod
+
+recipe 3 Mining -> Iron Ore
+
+recipe Iron Ore + 3 Crafting -> Iron Ingot
+
+recipe Iron Ingot + Crafting -> Iron Rod
+recipe 3 Iron Ingot + 3 Crafting -> 2 Iron Plate
+
